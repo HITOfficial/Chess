@@ -1,0 +1,9 @@
+
+.container {
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    grid-auto-flow: row;
+    justify-content: center;
+    background-color: aqua;
+    display: grid;
+}
